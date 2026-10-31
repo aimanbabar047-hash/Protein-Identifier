@@ -1,0 +1,14 @@
+# Secrets - never commit these
+.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large raw data
+data/uniprotkb_reviewed_true_AND_model_organ_*.fasta
